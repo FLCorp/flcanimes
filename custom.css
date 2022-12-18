@@ -1,0 +1,290 @@
+@font-face {
+    font-family: animes;
+    src: url(font/njnaruto.ttf);
+}
+@font-face {
+    font-family: soon;
+    src: url(font/Coming\ Soon\ St.ttf);
+}
+
+body{  
+    background: rgb(30, 30, 30);
+    overflow-x: hidden;
+    max-width: 1920px;
+}
+h1, h2, h3, h4, h5, h6, p{
+    font-family: animes;
+    color: #c5db20;
+    text-align: center;
+    font-size: 50px;
+}
+.soon{
+    font-family: soon;
+    color: #ffffff;
+    font-size: 115px;
+}
+.easter-egg{
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.header_banner{
+    height: 60%;
+    width: 100%;
+    min-height: 280px;
+    margin-top: -50px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    box-shadow: inset 0px -130px 80px rgb(30, 30, 30);
+
+    background-image: url(banner/banner1.png);
+    background-size: cover;
+    background-position: right;
+    
+    -webkit-animation-name: banner;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction:reverse;
+
+    -moz-animation-name: banner;
+    -moz-animation-duration: 40s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction:reverse;
+
+    animation-name: banner;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+
+}
+
+@-webkit-keyframes banner{
+    0%{background-image: url(banner/banner1.png);}
+    20%{background-image: url(banner/banner1.png);}
+    25%{background-image: url(banner/banner2.png);}
+    45%{background-image: url(banner/banner2.png);}
+    50%{background-image: url(banner/banner3.png);}
+    70%{background-image: url(banner/banner3.png);}
+    75%{background-image: url(banner/banner4.png);}
+    95%{background-image: url(banner/banner4.png);}
+}
+
+@-moz-keyframes banner{
+    0%{background-image: url(banner/banner1.png);}
+    20%{background-image: url(banner/banner1.png);}
+    25%{background-image: url(banner/banner2.png);}
+    45%{background-image: url(banner/banner2.png);}
+    50%{background-image: url(banner/banner3.png);}
+    70%{background-image: url(banner/banner3.png);}
+    75%{background-image: url(banner/banner4.png);}
+    95%{background-image: url(banner/banner4.png);}
+}
+
+@keyframes banner{
+    0%{background-image: url(banner/banner1.png);}
+    20%{background-image: url(banner/banner1.png);}
+    25%{background-image: url(banner/banner2.png);}
+    45%{background-image: url(banner/banner2.png);}
+    50%{background-image: url(banner/banner3.png);}
+    70%{background-image: url(banner/banner3.png);}
+    75%{background-image: url(banner/banner4.png);}
+    95%{background-image: url(banner/banner4.png);}
+}
+
+.titrebox {
+    color: #DB202C;
+    font-family: animes;
+    font-size: 100px;
+    text-shadow: 10px 10px 20px black;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 1;
+}
+
+.titrebox2 {
+    background-color: rgba(3, 3, 3, 0.562);
+    backdrop-filter: blur(10px);
+    margin: 0 auto;
+    border-radius: 15px;
+    width: 18%;
+}
+
+.sec1 .omglet{
+    position: relative;
+    margin-left: 100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 570px;
+    height: 50px;
+}
+
+.sec1 .omglet ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: auto;
+    padding: 0px;
+    position: relative;
+}
+
+.sec1 .omglet ul a {
+    margin: 0 70px;
+}
+
+.sec1 {
+    margin-top: 350px;
+    position: relative;
+}
+
+.sec1 .omglet button {
+    position: relative;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #181717;
+    border: 3px solid #20db93;
+    font-size: 1.7em;
+    font-family: animes;
+    color: #20db93;
+    z-index: 2;
+    transition: 0.2s;
+    overflow: hidden;
+    box-shadow: #00312f -5px 5px 20px;
+}
+
+.sec1 .omglet button:hover {
+    color: white;
+    width: 180px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.sec1 .omglet button::before {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 180px;
+    background-color: #20db93;
+    top: -2px;
+    left: -2px;
+    transform: translateY(-100%);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.sec1 .omglet button:hover::before {
+    transform: translate(0%);
+    transition: 0.2s;
+}
+
+.sec1 .omglet button:hover {
+    color: white;
+}
+
+.sec1 .omglet button i {
+    transform: scale(0);
+    margin: -10px;
+    transition: 0.3s;
+}
+
+.sec1 .omglet button:hover i {
+    transform: scale(5);
+    margin-left: 20px;
+}
+
+
+.sec1 .liste1 { 
+    background-color: rgba(66, 65, 65, 0.562);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    margin: 20px;
+    position: relative;
+}
+
+.sec1 .liste1 .categorie1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    position: relative;
+    width: 400px;
+    text-align: left;
+    padding: 10px 0px 0px 10px;
+}
+
+@media screen and (max-width : 1920px){
+    .sec1 .liste1 img {
+        height: 12%;
+        width: 12%;
+        border-radius: 5px;
+        box-shadow: #000000 -5px 5px 20px;
+        margin: 20px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width : 1100px){
+    .sec1 .liste1 img {
+        height: 20%;
+        width: 20%;
+        border-radius: 5px;
+        box-shadow: #000000 -5px 5px 20px;
+        margin: 20px;
+    }
+}
+
+.sec1 .liste2 { 
+    background-color: rgba(66, 65, 65, 0.562);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    margin: 20px;
+    position: relative;
+}
+
+.sec1 .liste2 .categorie2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    position: relative;
+    width: 400px;
+    text-align: left;
+    padding: 10px 0px 0px 10px;
+}
+
+@media screen and (max-width : 1920px){
+    .sec1 .liste2 img {
+        height: 12%;
+        width: 12%;
+        border-radius: 5px;
+        box-shadow: #000000 -5px 5px 20px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width : 1100px){
+    .sec1 .liste2 img {
+        height: 20%;
+        width: 20%;
+        border-radius: 5px;
+        box-shadow: #000000 -5px 5px 20px;
+        margin: 20px;
+    }
+}
+
+::-webkit-scrollbar {
+    background-color: rgba(0, 132, 255, 0);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #20d2db;
+    border-radius: 50px;
+    
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
