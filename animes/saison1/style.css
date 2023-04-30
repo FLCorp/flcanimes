@@ -1,3 +1,8 @@
+@font-face {
+    font-family: animes;
+    src: url(font/Piston\ Pressure.otf);
+}
+
 *{
     text-decoration: none;
 }
@@ -17,15 +22,14 @@ button{
     border-radius: 8px;
     border-color: goldenrod;
 }
-h1{
-    color: goldenrod;
-    text-align: center;
-    font-family: Bebas Neue;
-    font-size: 75px;
-}
 img{
     margin-left: 11px;
     border-radius: 15px;
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: animes;
 }
 .episodes-button{
     text-align: center;

@@ -1,6 +1,6 @@
 @font-face {
     font-family: animes;
-    src: url(font/njnaruto.ttf);
+    src: url(font/Piston\ Pressure.otf);
 }
 
 /*Titre*/
@@ -19,7 +19,7 @@
     backdrop-filter: blur(10px);
     margin: 0 auto;
     border-radius: 15px;
-    width: 35%;
+    width: 50%;
 }
 
 /*Bouttons Episodes*/
@@ -35,7 +35,6 @@
     list-style-type: none;
     align-items: center;
     position: relative;
-    margin-left: 325px;
 }
 
 .sec1 .omglet ul a {
@@ -99,7 +98,6 @@
 
 .sec1 .omglet button:hover i {
     transform: scale(5);
-    margin-left: 20px;
 }
 
 .sec1 .liste1 { 
