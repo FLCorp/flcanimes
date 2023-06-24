@@ -401,6 +401,20 @@ h5{
         margin: 20px;
     }
 }
+.popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 600px;
+      color: white;
+      border-radius: 20px;
+      background-color: #2E2C0A;
+      padding: 20px;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      display: none; /* Masquer par défaut */
+    }
 
 ::-webkit-scrollbar {
     background-color: rgba(0, 132, 255, 0);
