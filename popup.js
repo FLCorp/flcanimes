@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Sélectionner le popup et le bouton de fermeture
-  var popup = document.getElementById('popup');
+  var popup = document.getElementById('popup2');
   var closeButton = document.getElementById('closeButton');
 
   // Afficher le popup
